@@ -18,6 +18,8 @@ library(tidyverse)
 ### variables of your choice)
 
 
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_point(aes(color = cut))
 ```
 
 ```{r partner 2}
