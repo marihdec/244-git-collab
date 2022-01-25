@@ -48,5 +48,6 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
 
-
+diamond_subset <- diamonds %>%
+  filter(carat > 1 & cut == 'Ideal')
 ```
