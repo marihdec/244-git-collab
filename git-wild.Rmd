@@ -30,8 +30,7 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 diamond_subset <- diamonds %>%
   filter(carat > 1 & cut == 'Ideal')
 
-#testing
-
+print(diamond_subset)
 ```
 
 ## STEP 7: Uh oh, merge conflicts!
